@@ -1,0 +1,656 @@
+2024-10-21 05:39:54,756 INFO [run.py:23] - ============================================================================================================
+2024-10-21 05:39:54,756 INFO [run.py:24] - [Running] Test Automation Start
+2024-10-21 05:39:54,756 INFO [run.py:25] -  | device        : ANDv10
+2024-10-21 05:39:54,756 INFO [run.py:26] -  | suit          : flipster_total_test
+2024-10-21 05:39:54,756 INFO [run.py:27] - ============================================================================================================
+2024-10-21 05:39:54,756 INFO [report.py:57] - [Result] set result (result id : TEST885477)
+2024-10-21 05:39:54,756 INFO [run.py:46] - [Running] Remote Device Start
+2024-10-21 05:39:54,756 INFO [driver_controller.py:47] - [RUNNING] Remote device info : {'device_type': 'android', 'device_name': 'ANDv10', 'device_uuid': '26bab32081217ece', 'device_version': '10', 'appium_port': 4724}
+2024-10-21 05:39:54,756 INFO [driver_controller.py:56] - [RUNNING] Remote Driver Address    : http://127.0.0.1:4724
+2024-10-21 05:40:00,256 INFO [testcase_controller.py:57] - [RUNNING] ==========  TestCase Start (description : 로그 아웃 기능 확인 ) ==========
+2024-10-21 05:40:02,051 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [Android] 앱 실행 (com.prestolabs.android.prex, com.prestolabs.android.prex.presentations.ui.MainActivity)) - pass
+2024-10-21 05:40:02,051 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_assets"]
+2024-10-21 05:40:03,439 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_assets"]) | (size : 1)
+2024-10-21 05:40:03,450 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_assets"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:03,450 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_assets"]
+2024-10-21 05:40:03,969 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_assets"]) | (size : 1)
+2024-10-21 05:40:05,052 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_assets"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:05,052 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Continue with Google"]
+2024-10-21 05:40:05,195 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Continue with Google"]) | (size : 1)
+2024-10-21 05:40:05,209 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@text="Continue with Google"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:05,209 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Continue with Google"]
+2024-10-21 05:40:05,341 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Continue with Google"]) | (size : 1)
+2024-10-21 05:40:06,026 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.TextView[@text="Continue with Google"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:06,026 INFO [element_controller.py:47] - resource_id : //android.widget.Button[@resource-id="com.google.android.gms:id/continue_button"]
+2024-10-21 05:40:06,091 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@resource-id="com.google.android.gms:id/continue_button"]) | (size : 0)
+2024-10-21 05:40:07,962 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@resource-id="com.google.android.gms:id/continue_button"]) | (size : 1)
+2024-10-21 05:40:08,051 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.Button[@resource-id="com.google.android.gms:id/continue_button"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:08,052 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Deny"]
+2024-10-21 05:40:09,213 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:40:10,284 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:40:11,360 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:40:12,475 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(3) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:40:13,572 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(4) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:40:14,706 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(5) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:40:15,847 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(6) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:40:16,922 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(7) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 1)
+2024-10-21 05:40:16,936 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@text="Deny"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:16,936 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Deny"]
+2024-10-21 05:40:17,642 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 1)
+2024-10-21 05:40:18,606 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.TextView[@text="Deny"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:18,606 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:18,765 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:40:18,777 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:18,777 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:18,956 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:40:20,212 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:20,213 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:40:20,400 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:40:20,408 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:20,408 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:40:20,577 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:40:20,716 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:20,717 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:40:20,921 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:40:22,110 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 1)
+2024-10-21 05:40:22,119 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:22,120 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_nick_value_01"]
+2024-10-21 05:40:22,223 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 1)
+2024-10-21 05:40:22,237 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_nick_value_01"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:22,237 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:22,319 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 0)
+2024-10-21 05:40:23,513 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 0)
+2024-10-21 05:40:24,698 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 0)
+2024-10-21 05:40:25,713 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:40:25,713 INFO [element_controller.py:47] - resource_id : //android.widget.Button[@content-desc="back_icon"]
+2024-10-21 05:40:25,813 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@content-desc="back_icon"]) | (size : 1)
+2024-10-21 05:40:25,887 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.Button[@content-desc="back_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:25,887 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:26,153 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:40:26,756 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:26,757 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:26,901 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:40:26,912 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:26,912 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:27,047 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:40:27,166 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:27,166 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:40:27,307 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:40:27,319 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:27,319 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:40:27,436 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:40:27,525 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:27,525 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:40:27,726 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:40:28,818 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 1)
+2024-10-21 05:40:28,831 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:28,832 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_nick_value_01"]
+2024-10-21 05:40:28,906 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 1)
+2024-10-21 05:40:28,922 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_nick_value_01"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:28,923 INFO [element_controller.py:47] - resource_id : //android.view.View[@content-desc="account_sign_out"]
+2024-10-21 05:40:28,994 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.view.View[@content-desc="account_sign_out"]) | (size : 0)
+2024-10-21 05:40:29,999 INFO [element_controller.py:182] - [ELEMENT] Element swipe (1) | down | //android.view.View[@content-desc="account_sign_out"] | 0
+2024-10-21 05:40:32,350 INFO [element_controller.py:47] - resource_id : //android.view.View[@content-desc="account_sign_out"]
+2024-10-21 05:40:32,454 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.view.View[@content-desc="account_sign_out"]) | (size : 0)
+2024-10-21 05:40:33,459 INFO [element_controller.py:182] - [ELEMENT] Element swipe (2) | down | //android.view.View[@content-desc="account_sign_out"] | 0
+2024-10-21 05:40:35,778 INFO [element_controller.py:47] - resource_id : //android.view.View[@content-desc="account_sign_out"]
+2024-10-21 05:40:35,908 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.view.View[@content-desc="account_sign_out"]) | (size : 0)
+2024-10-21 05:40:36,914 INFO [element_controller.py:182] - [ELEMENT] Element swipe (3) | down | //android.view.View[@content-desc="account_sign_out"] | 0
+2024-10-21 05:40:39,239 INFO [element_controller.py:47] - resource_id : //android.view.View[@content-desc="account_sign_out"]
+2024-10-21 05:40:39,773 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.view.View[@content-desc="account_sign_out"]) | (size : 1)
+2024-10-21 05:40:39,773 INFO [element_controller.py:182] - [ELEMENT] Element swipe (4) | down | //android.view.View[@content-desc="account_sign_out"] | 1
+2024-10-21 05:40:40,790 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 엘리먼트 Swipe 수행, 엘리먼트 Swipe 성공 (4) | down | //android.view.View[@content-desc="account_sign_out"] | 1)) - pass
+2024-10-21 05:40:40,790 INFO [element_controller.py:47] - resource_id : //android.view.View[@content-desc="account_sign_out"]
+2024-10-21 05:40:40,949 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.view.View[@content-desc="account_sign_out"]) | (size : 1)
+2024-10-21 05:40:41,909 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.view.View[@content-desc="account_sign_out"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:41,910 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:42,080 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:40:42,092 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:42,092 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:42,196 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:40:42,299 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:42,299 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:40:42,409 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:40:42,422 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:42,422 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:40:42,512 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:40:42,609 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:42,609 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:40:42,738 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:40:43,901 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 1)
+2024-10-21 05:40:43,916 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:43,916 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_nick_value_01"]
+2024-10-21 05:40:44,033 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:40:45,165 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:40:46,254 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:40:47,273 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_nick_value_01"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:40:47,859 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Terminate App] 앱 종료, 앱 종료 (com.prestolabs.android.prex)) - pass
+2024-10-21 05:40:47,866 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Finished] 로그 아웃 기능 확인 정상 수행, 로그 아웃 기능 확인 정상 수행. Test Case is Finished.) - pass
+2024-10-21 05:40:47,866 INFO [testcase_controller.py:57] - [RUNNING] ==========  TestCase Start (description : 로그인 기능 확인 ) ==========
+2024-10-21 05:40:49,747 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [Android] 앱 실행 (com.prestolabs.android.prex, com.prestolabs.android.prex.presentations.ui.MainActivity)) - pass
+2024-10-21 05:40:49,747 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:50,000 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:40:50,015 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:50,015 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:50,619 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:40:51,291 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:51,291 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:51,407 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:40:51,416 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:51,416 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:40:51,506 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:40:51,597 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:51,597 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:40:51,724 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:40:51,736 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:51,736 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:40:51,858 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:40:51,931 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:40:51,931 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:40:52,137 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:40:53,282 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 1)
+2024-10-21 05:40:53,297 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:40:53,297 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_nick_value_01"]
+2024-10-21 05:40:53,419 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:40:54,553 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:40:55,671 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:40:56,688 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_nick_value_01"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:40:56,697 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (로그 아웃 기능 수행, 현재 로그 아웃 상태 (로그 아웃 수행 Skip)) - pass
+2024-10-21 05:40:56,697 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_assets"]
+2024-10-21 05:40:56,811 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_assets"]) | (size : 0)
+2024-10-21 05:40:57,995 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_assets"]) | (size : 0)
+2024-10-21 05:40:59,088 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_assets"]) | (size : 0)
+2024-10-21 05:41:00,105 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_assets"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:41:00,105 INFO [element_controller.py:47] - resource_id : //android.widget.Button[@content-desc="back_icon"]
+2024-10-21 05:41:00,182 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@content-desc="back_icon"]) | (size : 1)
+2024-10-21 05:41:00,290 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.Button[@content-desc="back_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:00,290 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_assets"]
+2024-10-21 05:41:00,538 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_assets"]) | (size : 1)
+2024-10-21 05:41:01,207 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_assets"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:01,207 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Continue with Google"]
+2024-10-21 05:41:01,374 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Continue with Google"]) | (size : 1)
+2024-10-21 05:41:01,389 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@text="Continue with Google"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:41:01,389 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Continue with Google"]
+2024-10-21 05:41:01,809 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Continue with Google"]) | (size : 1)
+2024-10-21 05:41:02,940 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.TextView[@text="Continue with Google"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:02,941 INFO [element_controller.py:47] - resource_id : //android.widget.Button[@resource-id="com.google.android.gms:id/continue_button"]
+2024-10-21 05:41:03,312 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@resource-id="com.google.android.gms:id/continue_button"]) | (size : 1)
+2024-10-21 05:41:03,414 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.Button[@resource-id="com.google.android.gms:id/continue_button"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:03,414 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Deny"]
+2024-10-21 05:41:04,032 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:41:05,094 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:41:06,139 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:41:07,229 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(3) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:41:08,366 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(4) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 0)
+2024-10-21 05:41:10,128 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(5) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 1)
+2024-10-21 05:41:10,141 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@text="Deny"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:41:10,142 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Deny"]
+2024-10-21 05:41:10,751 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Deny"]) | (size : 1)
+2024-10-21 05:41:11,619 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.TextView[@text="Deny"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:11,620 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:41:11,831 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:41:11,863 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:41:11,864 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:41:11,943 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:41:12,736 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:12,736 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:41:12,886 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:41:12,902 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:41:12,902 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:41:13,029 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:41:13,111 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:13,111 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:41:13,341 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 1)
+2024-10-21 05:41:13,347 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:41:13,348 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_nick_value_01"]
+2024-10-21 05:41:13,802 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 1)
+2024-10-21 05:41:13,820 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_nick_value_01"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:41:14,178 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Terminate App] 앱 종료, 앱 종료 (com.prestolabs.android.prex)) - pass
+2024-10-21 05:41:14,191 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Finished] 로그인 기능 확인 정상 수행, 로그인 기능 확인 정상 수행. Test Case is Finished.) - pass
+2024-10-21 05:41:14,192 INFO [testcase_controller.py:57] - [RUNNING] ==========  TestCase Start (description : Perpetual Selections 페이지에 High volume 영역에 코인 정보 정상 노출되는지 확인 ) ==========
+2024-10-21 05:41:15,596 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [Android] 앱 실행 (com.prestolabs.android.prex, com.prestolabs.android.prex.presentations.ui.MainActivity)) - pass
+2024-10-21 05:41:15,596 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_assets"]
+2024-10-21 05:41:15,733 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_assets"]) | (size : 1)
+2024-10-21 05:41:15,761 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_assets"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:41:15,762 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_assets"]
+2024-10-21 05:41:16,357 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_assets"]) | (size : 1)
+2024-10-21 05:41:17,024 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_assets"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:17,024 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Continue with Google"]
+2024-10-21 05:41:17,092 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Continue with Google"]) | (size : 0)
+2024-10-21 05:41:18,183 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Continue with Google"]) | (size : 0)
+2024-10-21 05:41:19,534 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Continue with Google"]) | (size : 0)
+2024-10-21 05:41:20,550 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@text="Continue with Google"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:41:20,550 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:41:20,672 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:41:20,681 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:41:20,681 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:41:20,747 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:41:21,552 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:21,552 INFO [element_controller.py:47] - resource_id : (//*[@text="High volume"]/following-sibling::*[@text="See all"])[1]
+2024-10-21 05:41:21,666 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : (//*[@text="High volume"]/following-sibling::*[@text="See all"])[1]) | (size : 0)
+2024-10-21 05:41:22,669 INFO [element_controller.py:182] - [ELEMENT] Element swipe (1) | down | (//*[@text="High volume"]/following-sibling::*[@text="See all"])[1] | 0
+2024-10-21 05:41:25,073 INFO [element_controller.py:47] - resource_id : (//*[@text="High volume"]/following-sibling::*[@text="See all"])[1]
+2024-10-21 05:41:25,358 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : (//*[@text="High volume"]/following-sibling::*[@text="See all"])[1]) | (size : 1)
+2024-10-21 05:41:25,358 INFO [element_controller.py:182] - [ELEMENT] Element swipe (2) | down | (//*[@text="High volume"]/following-sibling::*[@text="See all"])[1] | 1
+2024-10-21 05:41:26,379 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 엘리먼트 Swipe 수행, 엘리먼트 Swipe 성공 (2) | down | (//*[@text="High volume"]/following-sibling::*[@text="See all"])[1] | 1)) - pass
+2024-10-21 05:41:26,380 INFO [element_controller.py:47] - resource_id : (//*[@text="High volume"]/following-sibling::*[@text="See all"])[1]
+2024-10-21 05:41:26,580 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : (//*[@text="High volume"]/following-sibling::*[@text="See all"])[1]) | (size : 1)
+2024-10-21 05:41:26,694 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, (//*[@text="High volume"]/following-sibling::*[@text="See all"])[1] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:27,699 INFO [element_controller.py:47] - resource_id : //*[contains(@content-desc, "ticker")]/..
+2024-10-21 05:41:28,031 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[contains(@content-desc, "ticker")]/..) | (size : 9)
+2024-10-21 05:41:28,044 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //*[contains(@content-desc, "ticker")]/.. 엘리먼트 리스트 반환 (size : 9)) - pass
+2024-10-21 05:41:29,925 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:500, press_y:1900, move_x:500, move_y:500
+2024-10-21 05:41:31,263 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (500, 1900 | 500, 500)) - pass
+2024-10-21 05:41:32,265 INFO [element_controller.py:47] - resource_id : //*[contains(@content-desc, "ticker")]/..
+2024-10-21 05:41:32,591 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[contains(@content-desc, "ticker")]/..) | (size : 9)
+2024-10-21 05:41:32,605 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //*[contains(@content-desc, "ticker")]/.. 엘리먼트 리스트 반환 (size : 9)) - pass
+2024-10-21 05:41:34,317 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:500, press_y:1900, move_x:500, move_y:500
+2024-10-21 05:41:35,628 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (500, 1900 | 500, 500)) - pass
+2024-10-21 05:41:36,629 INFO [element_controller.py:47] - resource_id : //*[contains(@content-desc, "ticker")]/..
+2024-10-21 05:41:36,938 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[contains(@content-desc, "ticker")]/..) | (size : 9)
+2024-10-21 05:41:36,952 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //*[contains(@content-desc, "ticker")]/.. 엘리먼트 리스트 반환 (size : 9)) - pass
+2024-10-21 05:41:38,683 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (High Volume 페이지 코인 정보 정상 확인, 정상 확인 한 코인 정보 : [
+    {
+        "ticker": "BTC",
+        "volume": "81.16M",
+        "price": "68,702.0",
+        "fluctuation": "0.67%"
+    },
+    {
+        "ticker": "ETH",
+        "volume": "31.60M",
+        "price": "2,708.68",
+        "fluctuation": "2.32%"
+    },
+    {
+        "ticker": "APE",
+        "volume": "48.64M",
+        "price": "1.4681",
+        "fluctuation": "95.85%"
+    },
+    {
+        "ticker": "SOL",
+        "volume": "5.75M",
+        "price": "162.103",
+        "fluctuation": "3.54%"
+    },
+    {
+        "ticker": "BNB",
+        "volume": "310.65K",
+        "price": "599.844",
+        "fluctuation": "0.42%"
+    },
+    {
+        "ticker": "DOGE",
+        "volume": "14.38M",
+        "price": "0.14130",
+        "fluctuation": "0.44%"
+    },
+    {
+        "ticker": "XRP",
+        "volume": "421.62K",
+        "price": "0.5446",
+        "fluctuation": "0.22%"
+    },
+    {
+        "ticker": "1000PEPE",
+        "volume": "2.25M",
+        "price": "0.0105843",
+        "fluctuation": "1.26%"
+    },
+    {
+        "ticker": "SUI",
+        "volume": "1.42M",
+        "price": "2.1255",
+        "fluctuation": "2.65%"
+    },
+    {
+        "ticker": "DYDX",
+        "volume": "885.40K",
+        "price": "1.2665",
+        "fluctuation": "30.64%"
+    },
+    {
+        "ticker": "WIF",
+        "volume": "652.01K",
+        "price": "2.6960",
+        "fluctuation": "3.45%"
+    },
+    {
+        "ticker": "NEIRO",
+        "volume": "963.71K",
+        "price": "0.0018908",
+        "fluctuation": "2.80%"
+    },
+    {
+        "ticker": "ARB",
+        "volume": "763.63K",
+        "price": "0.6050",
+        "fluctuation": "7.23%"
+    },
+    {
+        "ticker": "API3",
+        "volume": "1.87M",
+        "price": "1.8867",
+        "fluctuation": "33.45%"
+    },
+    {
+        "ticker": "1000SHIB",
+        "volume": "313.49K",
+        "price": "0.018878",
+        "fluctuation": "0.68%"
+    },
+    {
+        "ticker": "LTC",
+        "volume": "158.43K",
+        "price": "74.00",
+        "fluctuation": "1.29%"
+    },
+    {
+        "ticker": "WLD",
+        "volume": "762.60K",
+        "price": "2.3927",
+        "fluctuation": "1.98%"
+    },
+    {
+        "ticker": "BCH",
+        "volume": "529.85K",
+        "price": "365.23",
+        "fluctuation": "0.55%"
+    },
+    {
+        "ticker": "TRX",
+        "volume": "35.98K",
+        "price": "0.15650",
+        "fluctuation": "0.31%"
+    },
+    {
+        "ticker": "LINK",
+        "volume": "209.38K",
+        "price": "11.879",
+        "fluctuation": "4.50%"
+    }
+]) - pass
+2024-10-21 05:41:39,133 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Terminate App] 앱 종료, 앱 종료 (com.prestolabs.android.prex)) - pass
+2024-10-21 05:41:39,145 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Finished] Perpetual Selections 페이지에 High volume 영역에 코인 정보 정상 노출되는지 확인 정상 수행, Perpetual Selections 페이지에 High volume 영역에 코인 정보 정상 노출되는지 확인 정상 수행. Test Case is Finished.) - pass
+2024-10-21 05:41:39,146 INFO [testcase_controller.py:57] - [RUNNING] ==========  TestCase Start (description : Challenge 페이지에 Launch Airdrop 이벤트 정보 확인 ) ==========
+2024-10-21 05:41:41,451 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [Android] 앱 실행 (com.prestolabs.android.prex, com.prestolabs.android.prex.presentations.ui.MainActivity)) - pass
+2024-10-21 05:41:41,451 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_assets"]
+2024-10-21 05:41:42,033 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_assets"]) | (size : 1)
+2024-10-21 05:41:42,041 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_assets"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:41:42,041 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_assets"]
+2024-10-21 05:41:42,643 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_assets"]) | (size : 1)
+2024-10-21 05:41:43,328 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_assets"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:43,328 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Continue with Google"]
+2024-10-21 05:41:43,407 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Continue with Google"]) | (size : 0)
+2024-10-21 05:41:44,953 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Continue with Google"]) | (size : 0)
+2024-10-21 05:41:46,045 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Continue with Google"]) | (size : 0)
+2024-10-21 05:41:47,061 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@text="Continue with Google"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:41:47,062 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_challenge"]
+2024-10-21 05:41:47,205 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_challenge"]) | (size : 1)
+2024-10-21 05:41:47,211 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_challenge"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:41:47,211 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_challenge"]
+2024-10-21 05:41:47,288 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_challenge"]) | (size : 1)
+2024-10-21 05:41:47,951 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_challenge"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:47,952 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Launch Airdrop"]
+2024-10-21 05:41:47,995 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Launch Airdrop"]) | (size : 0)
+2024-10-21 05:41:49,121 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Launch Airdrop"]) | (size : 1)
+2024-10-21 05:41:49,265 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.TextView[@text="Launch Airdrop"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:41:50,265 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Learn more"]/../..
+2024-10-21 05:41:51,027 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Learn more"]/../..) | (size : 1)
+2024-10-21 05:41:51,044 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //android.widget.TextView[@text="Learn more"]/../.. 엘리먼트 리스트 반환 (size : 1)) - pass
+2024-10-21 05:41:51,244 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:900, press_y:1000, move_x:200, move_y:1000
+2024-10-21 05:41:52,562 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (900, 1000 | 200, 1000)) - pass
+2024-10-21 05:41:53,564 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Learn more"]/../..
+2024-10-21 05:41:53,669 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Learn more"]/../..) | (size : 1)
+2024-10-21 05:41:53,682 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //android.widget.TextView[@text="Learn more"]/../.. 엘리먼트 리스트 반환 (size : 1)) - pass
+2024-10-21 05:41:53,857 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:900, press_y:1000, move_x:200, move_y:1000
+2024-10-21 05:41:55,170 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (900, 1000 | 200, 1000)) - pass
+2024-10-21 05:41:56,175 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Learn more"]/../..
+2024-10-21 05:41:56,713 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Learn more"]/../..) | (size : 1)
+2024-10-21 05:41:56,731 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //android.widget.TextView[@text="Learn more"]/../.. 엘리먼트 리스트 반환 (size : 1)) - pass
+2024-10-21 05:41:56,981 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:900, press_y:1000, move_x:200, move_y:1000
+2024-10-21 05:41:58,301 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (900, 1000 | 200, 1000)) - pass
+2024-10-21 05:41:59,306 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Learn more"]/../..
+2024-10-21 05:41:59,493 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Learn more"]/../..) | (size : 1)
+2024-10-21 05:41:59,508 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //android.widget.TextView[@text="Learn more"]/../.. 엘리먼트 리스트 반환 (size : 1)) - pass
+2024-10-21 05:41:59,663 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:900, press_y:1000, move_x:200, move_y:1000
+2024-10-21 05:42:00,976 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (900, 1000 | 200, 1000)) - pass
+2024-10-21 05:42:01,977 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Learn more"]/../..
+2024-10-21 05:42:02,518 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Learn more"]/../..) | (size : 1)
+2024-10-21 05:42:02,531 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //android.widget.TextView[@text="Learn more"]/../.. 엘리먼트 리스트 반환 (size : 1)) - pass
+2024-10-21 05:42:03,613 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:900, press_y:1000, move_x:200, move_y:1000
+2024-10-21 05:42:04,917 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (900, 1000 | 200, 1000)) - pass
+2024-10-21 05:42:05,922 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Learn more"]/../..
+2024-10-21 05:42:06,019 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Learn more"]/../..) | (size : 1)
+2024-10-21 05:42:06,032 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //android.widget.TextView[@text="Learn more"]/../.. 엘리먼트 리스트 반환 (size : 1)) - pass
+2024-10-21 05:42:06,172 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:900, press_y:1000, move_x:200, move_y:1000
+2024-10-21 05:42:07,478 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (900, 1000 | 200, 1000)) - pass
+2024-10-21 05:42:08,480 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Learn more"]/../..
+2024-10-21 05:42:08,619 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Learn more"]/../..) | (size : 1)
+2024-10-21 05:42:08,664 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //android.widget.TextView[@text="Learn more"]/../.. 엘리먼트 리스트 반환 (size : 1)) - pass
+2024-10-21 05:42:08,742 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (Challenge 이벤트 정보 정상 확인, 정상 확인 한 이벤트 정보 : [
+    {
+        "ticker": "HMSTR",
+        "period": "24.09.23 - 09.26 UTC",
+        "Status": "Closed"
+    },
+    {
+        "ticker": "ORDER",
+        "period": "24.08.23 - 08.26 UTC",
+        "Status": "Closed"
+    },
+    {
+        "ticker": "IO",
+        "period": "24.06.08 - 06.11 UTC",
+        "Status": "Closed"
+    },
+    {
+        "ticker": "ULTI",
+        "period": "24.06.03 - 06.06 UTC",
+        "Status": "Closed"
+    },
+    {
+        "ticker": "NOT",
+        "period": "24.05.13 - 05.16 UTC",
+        "Status": "Closed"
+    },
+    {
+        "ticker": "BB",
+        "period": "24.05.10 - 05.13 UTC",
+        "Status": "Closed"
+    }
+]) - pass
+2024-10-21 05:42:09,239 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Terminate App] 앱 종료, 앱 종료 (com.prestolabs.android.prex)) - pass
+2024-10-21 05:42:09,252 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Finished] Challenge 페이지에 Launch Airdrop 이벤트 정보 확인 정상 수행, Challenge 페이지에 Launch Airdrop 이벤트 정보 확인 정상 수행. Test Case is Finished.) - pass
+2024-10-21 05:42:09,252 INFO [testcase_controller.py:57] - [RUNNING] ==========  TestCase Start (description : 문의하기 페이지 노출 및 앱 전환 ) ==========
+2024-10-21 05:42:11,084 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [Android] 앱 실행 (com.prestolabs.android.prex, com.prestolabs.android.prex.presentations.ui.MainActivity)) - pass
+2024-10-21 05:42:11,084 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:11,216 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:42:11,237 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:11,237 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:12,275 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:42:12,947 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:12,948 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:13,045 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:42:13,068 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:13,068 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:13,162 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:42:13,263 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:13,263 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:42:13,361 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:42:13,372 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:13,372 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:42:13,472 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:42:13,553 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:13,553 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:42:13,731 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 1)
+2024-10-21 05:42:13,741 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:13,741 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_nick_value_01"]
+2024-10-21 05:42:14,169 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 1)
+2024-10-21 05:42:14,178 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_nick_value_01"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:14,178 INFO [element_controller.py:47] - resource_id : //android.view.View[@content-desc="account_sign_out"]
+2024-10-21 05:42:14,220 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.view.View[@content-desc="account_sign_out"]) | (size : 0)
+2024-10-21 05:42:15,223 INFO [element_controller.py:182] - [ELEMENT] Element swipe (1) | down | //android.view.View[@content-desc="account_sign_out"] | 0
+2024-10-21 05:42:17,559 INFO [element_controller.py:47] - resource_id : //android.view.View[@content-desc="account_sign_out"]
+2024-10-21 05:42:17,656 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.view.View[@content-desc="account_sign_out"]) | (size : 0)
+2024-10-21 05:42:18,658 INFO [element_controller.py:182] - [ELEMENT] Element swipe (2) | down | //android.view.View[@content-desc="account_sign_out"] | 0
+2024-10-21 05:42:20,973 INFO [element_controller.py:47] - resource_id : //android.view.View[@content-desc="account_sign_out"]
+2024-10-21 05:42:21,289 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.view.View[@content-desc="account_sign_out"]) | (size : 0)
+2024-10-21 05:42:22,294 INFO [element_controller.py:182] - [ELEMENT] Element swipe (3) | down | //android.view.View[@content-desc="account_sign_out"] | 0
+2024-10-21 05:42:24,611 INFO [element_controller.py:47] - resource_id : //android.view.View[@content-desc="account_sign_out"]
+2024-10-21 05:42:24,753 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.view.View[@content-desc="account_sign_out"]) | (size : 1)
+2024-10-21 05:42:24,753 INFO [element_controller.py:182] - [ELEMENT] Element swipe (4) | down | //android.view.View[@content-desc="account_sign_out"] | 1
+2024-10-21 05:42:25,767 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 엘리먼트 Swipe 수행, 엘리먼트 Swipe 성공 (4) | down | //android.view.View[@content-desc="account_sign_out"] | 1)) - pass
+2024-10-21 05:42:25,768 INFO [element_controller.py:47] - resource_id : //android.view.View[@content-desc="account_sign_out"]
+2024-10-21 05:42:25,873 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.view.View[@content-desc="account_sign_out"]) | (size : 1)
+2024-10-21 05:42:26,766 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.view.View[@content-desc="account_sign_out"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:26,767 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:27,023 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:42:27,036 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:27,037 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:27,224 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:42:27,819 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:27,819 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:42:27,976 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:42:27,988 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:27,988 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:42:28,064 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:42:28,156 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:28,156 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:42:28,240 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:42:29,373 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 1)
+2024-10-21 05:42:29,384 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:29,385 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_nick_value_01"]
+2024-10-21 05:42:29,423 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:42:30,529 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:42:31,667 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:42:32,686 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_nick_value_01"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:42:32,686 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:32,858 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 0)
+2024-10-21 05:42:34,062 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 0)
+2024-10-21 05:42:35,169 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 0)
+2024-10-21 05:42:36,187 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:42:36,188 INFO [element_controller.py:47] - resource_id : //android.widget.Button[@content-desc="back_icon"]
+2024-10-21 05:42:36,338 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@content-desc="back_icon"]) | (size : 1)
+2024-10-21 05:42:36,478 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.Button[@content-desc="back_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:36,479 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:36,750 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:42:37,387 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:37,387 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:42:37,575 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:42:37,588 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:37,588 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:42:37,663 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:42:37,778 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:37,778 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:42:37,954 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 1)
+2024-10-21 05:42:37,966 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:37,966 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Announcement"]
+2024-10-21 05:42:38,505 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Announcement"]) | (size : 1)
+2024-10-21 05:42:38,506 INFO [element_controller.py:182] - [ELEMENT] Element swipe (1) | down | //android.widget.TextView[@text="Announcement"] | 1
+2024-10-21 05:42:39,522 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 엘리먼트 Swipe 수행, 엘리먼트 Swipe 성공 (1) | down | //android.widget.TextView[@text="Announcement"] | 1)) - pass
+2024-10-21 05:42:39,522 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Announcement"]
+2024-10-21 05:42:39,605 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Announcement"]) | (size : 1)
+2024-10-21 05:42:39,701 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.TextView[@text="Announcement"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:39,701 INFO [element_controller.py:47] - resource_id : //android.widget.Button[@text="Open messaging window"]
+2024-10-21 05:42:40,596 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@text="Open messaging window"]) | (size : 0)
+2024-10-21 05:42:42,445 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@text="Open messaging window"]) | (size : 0)
+2024-10-21 05:42:44,067 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@text="Open messaging window"]) | (size : 1)
+2024-10-21 05:42:44,142 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.Button[@text="Open messaging window"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:44,142 INFO [element_controller.py:47] - resource_id : //android.widget.Button[@text="Toggle navigation menu"]
+2024-10-21 05:42:45,838 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@text="Toggle navigation menu"]) | (size : 1)
+2024-10-21 05:42:45,957 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.Button[@text="Toggle navigation menu"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:45,957 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:42:46,917 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:42:48,052 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:42:49,334 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:42:50,350 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:42:50,358 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (문의하기 페이지 노출 및 앱 전환 에러, 문의하기 페이지 노출 및 앱 전환 에러 
+ [ERROR] 쳇봇 화면에서 collapse 버튼 클릭 시 Account 페이지 앱 전환 실패) - fail
+2024-10-21 05:42:50,358 ERROR [account_testcase.py:28] - [ERROR] 문의하기 페이지 노출 및 앱 전환
+[ERROR] 문의하기 페이지 노출 및 앱 전환
+[ERROR] 쳇봇 화면에서 collapse 버튼 클릭 시 Account 페이지 앱 전환 실패
+2024-10-21 05:42:50,359 INFO [testcase_controller.py:75] - [RUNNING] ========== TestCase Retry ( description : 문의하기 페이지 노출 및 앱 전환 ) ==========
+2024-10-21 05:42:52,399 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [Android] 앱 실행 (com.prestolabs.android.prex, com.prestolabs.android.prex.presentations.ui.MainActivity)) - pass
+2024-10-21 05:42:52,399 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:52,686 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:42:52,701 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:52,701 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:53,395 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:42:54,077 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:54,077 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:54,196 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:42:54,209 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:54,209 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:42:54,294 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:42:54,379 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:54,379 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:42:54,488 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:42:54,572 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:54,574 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:42:54,688 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:42:54,761 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:42:54,762 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:42:54,963 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:42:56,069 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 1)
+2024-10-21 05:42:56,102 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:42:56,102 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_nick_value_01"]
+2024-10-21 05:42:56,684 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:42:57,768 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:42:58,882 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_nick_value_01"]) | (size : 0)
+2024-10-21 05:42:59,934 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_nick_value_01"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:42:59,943 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (로그 아웃 기능 수행, 현재 로그 아웃 상태 (로그 아웃 수행 Skip)) - pass
+2024-10-21 05:42:59,943 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:43:00,008 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 0)
+2024-10-21 05:43:01,135 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 0)
+2024-10-21 05:43:02,327 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 0)
+2024-10-21 05:43:03,348 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="tab_market"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:43:03,348 INFO [element_controller.py:47] - resource_id : //android.widget.Button[@content-desc="back_icon"]
+2024-10-21 05:43:03,527 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@content-desc="back_icon"]) | (size : 1)
+2024-10-21 05:43:03,705 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.Button[@content-desc="back_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:43:03,705 INFO [element_controller.py:47] - resource_id : //*[@content-desc="tab_market"]
+2024-10-21 05:43:03,973 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="tab_market"]) | (size : 1)
+2024-10-21 05:43:04,685 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="tab_market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:43:04,685 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:43:04,841 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:43:04,855 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //*[@content-desc="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:43:04,855 INFO [element_controller.py:47] - resource_id : //*[@content-desc="menu_icon"]
+2024-10-21 05:43:04,945 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[@content-desc="menu_icon"]) | (size : 1)
+2024-10-21 05:43:05,016 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //*[@content-desc="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:43:05,016 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:43:05,194 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:43:06,342 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 1)
+2024-10-21 05:43:06,355 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 성공) - pass
+2024-10-21 05:43:06,355 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Announcement"]
+2024-10-21 05:43:06,471 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Announcement"]) | (size : 1)
+2024-10-21 05:43:06,472 INFO [element_controller.py:182] - [ELEMENT] Element swipe (1) | down | //android.widget.TextView[@text="Announcement"] | 1
+2024-10-21 05:43:07,486 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 엘리먼트 Swipe 수행, 엘리먼트 Swipe 성공 (1) | down | //android.widget.TextView[@text="Announcement"] | 1)) - pass
+2024-10-21 05:43:07,487 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@text="Announcement"]
+2024-10-21 05:43:07,677 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@text="Announcement"]) | (size : 1)
+2024-10-21 05:43:07,822 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.TextView[@text="Announcement"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:43:07,822 INFO [element_controller.py:47] - resource_id : //android.widget.Button[@text="Open messaging window"]
+2024-10-21 05:43:08,691 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@text="Open messaging window"]) | (size : 0)
+2024-10-21 05:43:09,963 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@text="Open messaging window"]) | (size : 0)
+2024-10-21 05:43:11,373 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@text="Open messaging window"]) | (size : 1)
+2024-10-21 05:43:11,455 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.Button[@text="Open messaging window"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:43:11,455 INFO [element_controller.py:47] - resource_id : //android.widget.Button[@text="Toggle navigation menu"]
+2024-10-21 05:43:13,212 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.Button[@text="Toggle navigation menu"]) | (size : 1)
+2024-10-21 05:43:13,476 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //android.widget.Button[@text="Toggle navigation menu"] 엘리먼트 클릭 성공) - pass
+2024-10-21 05:43:13,476 INFO [element_controller.py:47] - resource_id : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]
+2024-10-21 05:43:14,260 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:43:15,382 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:43:16,589 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //android.widget.TextView[@content-desc="account_main_title" and @text="Account"]) | (size : 0)
+2024-10-21 05:43:17,601 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //android.widget.TextView[@content-desc="account_main_title" and @text="Account"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 05:43:17,616 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (문의하기 페이지 노출 및 앱 전환 에러, 문의하기 페이지 노출 및 앱 전환 에러 
+ [ERROR] 쳇봇 화면에서 collapse 버튼 클릭 시 Account 페이지 앱 전환 실패) - fail
+2024-10-21 05:43:17,616 ERROR [account_testcase.py:28] - [ERROR] 문의하기 페이지 노출 및 앱 전환
+[ERROR] 문의하기 페이지 노출 및 앱 전환
+[ERROR] 쳇봇 화면에서 collapse 버튼 클릭 시 Account 페이지 앱 전환 실패
+2024-10-21 05:43:17,622 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Error] 문의하기 페이지 노출 및 앱 전환 재시도 에러, 문의하기 페이지 노출 및 앱 전환 재시도 에러 메시지 
+ [ERROR] 문의하기 페이지 노출 및 앱 전환) - fail
+2024-10-21 05:43:17,622 INFO [testcase_controller.py:80] - [RUNNING] Retry Error : 문의하기 페이지 노출 및 앱 전환 
+ [ERROR] 문의하기 페이지 노출 및 앱 전환
+2024-10-21 05:43:17,623 ERROR [testcase_controller.py:60] - [Error] Test Case - (flipster_total_test : 문의하기 페이지 노출 및 앱 전환)
+can only concatenate str (not "dict") to str
+2024-10-21 05:43:17,623 INFO [run.py:39] - [Finished] Test Automation

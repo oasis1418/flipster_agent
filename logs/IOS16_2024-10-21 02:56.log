@@ -1,0 +1,650 @@
+2024-10-21 02:56:02,885 INFO [run.py:23] - ============================================================================================================
+2024-10-21 02:56:02,885 INFO [run.py:24] - [Running] Test Automation Start
+2024-10-21 02:56:02,885 INFO [run.py:25] -  | device        : IOS16
+2024-10-21 02:56:02,885 INFO [run.py:26] -  | suit          : total_test
+2024-10-21 02:56:02,885 INFO [run.py:27] - ============================================================================================================
+2024-10-21 02:56:02,885 INFO [report.py:57] - [Result] set result (result id : TEST162929)
+2024-10-21 02:56:02,886 INFO [run.py:46] - [Running] Remote Device Start
+2024-10-21 02:56:02,886 INFO [driver_controller.py:47] - [RUNNING] Remote device info : {'device_type': 'ios', 'device_name': 'IOS16', 'device_uuid': '00008110-001439C00C28201E', 'device_version': '16.0.1', 'appium_port': 4723}
+2024-10-21 02:56:02,886 INFO [driver_controller.py:56] - [RUNNING] Remote Driver Address    : http://127.0.0.1:4723
+2024-10-21 02:56:05,755 INFO [testcase_controller.py:57] - [RUNNING] ==========  TestCase Start (description : 로그 아웃 기능 확인 ) ==========
+2024-10-21 02:56:06,008 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [iOS] 앱 실행 (com.aqx.prex)) - pass
+2024-10-21 02:56:06,008 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Assets"]
+2024-10-21 02:56:06,562 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Assets"]) | (size : 1)
+2024-10-21 02:56:06,603 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Assets"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:06,603 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Assets"]
+2024-10-21 02:56:07,087 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Assets"]) | (size : 1)
+2024-10-21 02:56:07,699 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Assets"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:07,699 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Continue with Google"]
+2024-10-21 02:56:07,868 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Continue with Google"]) | (size : 1)
+2024-10-21 02:56:07,880 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Continue with Google"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:07,880 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Continue with Google"]
+2024-10-21 02:56:08,012 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Continue with Google"]) | (size : 1)
+2024-10-21 02:56:08,401 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Continue with Google"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:12,379 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeOther[@name="로그인 - Google 계정"]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]
+2024-10-21 02:56:13,090 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeOther[@name="로그인 - Google 계정"]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]) | (size : 1)
+2024-10-21 02:56:13,829 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeOther[@name="로그인 - Google 계정"]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:13,830 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="계속"]
+2024-10-21 02:56:14,300 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="계속"]) | (size : 0)
+2024-10-21 02:56:15,921 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="계속"]) | (size : 1)
+2024-10-21 02:56:16,595 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="계속"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:16,595 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Don't allow"]
+2024-10-21 02:56:17,097 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 0)
+2024-10-21 02:56:18,640 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 0)
+2024-10-21 02:56:20,311 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 1)
+2024-10-21 02:56:20,322 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="Don't allow"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:20,323 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Don't allow"]
+2024-10-21 02:56:20,696 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 1)
+2024-10-21 02:56:21,451 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="Don't allow"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:21,452 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:21,904 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:56:21,911 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:21,911 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:22,312 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:56:22,816 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:22,816 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:56:23,535 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:56:23,547 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:23,547 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:56:24,209 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:56:25,232 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:25,232 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 02:56:25,560 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 1)
+2024-10-21 02:56:25,569 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:25,569 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_nick_value_01"]
+2024-10-21 02:56:25,983 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 1)
+2024-10-21 02:56:25,994 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_nick_value_01"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:25,994 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:26,245 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 02:56:27,609 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 02:56:28,989 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 02:56:30,002 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 02:56:30,003 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="back_icon"]
+2024-10-21 02:56:30,544 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="back_icon"]) | (size : 1)
+2024-10-21 02:56:31,454 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="back_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:31,454 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:32,091 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:56:32,575 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:32,575 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:33,195 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:56:33,206 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:33,206 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:33,770 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:56:34,285 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:34,285 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:56:34,876 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:56:34,887 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:34,887 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:56:35,419 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:56:36,436 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:36,436 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 02:56:36,763 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 1)
+2024-10-21 02:56:36,773 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:36,773 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_nick_value_01"]
+2024-10-21 02:56:37,103 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 1)
+2024-10-21 02:56:37,108 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_nick_value_01"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:37,108 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="account_sign_out"]
+2024-10-21 02:56:37,425 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="account_sign_out"]) | (size : 1)
+2024-10-21 02:56:37,426 INFO [element_controller.py:182] - [ELEMENT] Element swipe (1) | down | //XCUIElementTypeButton[@name="account_sign_out"] | 1
+2024-10-21 02:56:38,446 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 엘리먼트 Swipe 수행, 엘리먼트 Swipe 성공 (1) | down | //XCUIElementTypeButton[@name="account_sign_out"] | 1)) - pass
+2024-10-21 02:56:38,447 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="account_sign_out"]
+2024-10-21 02:56:39,020 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="account_sign_out"]) | (size : 1)
+2024-10-21 02:56:44,134 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="account_sign_out"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:44,135 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:44,995 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:56:45,007 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:45,007 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:45,692 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:56:46,186 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:46,187 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:56:46,775 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:56:46,786 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:46,786 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:56:47,384 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:56:48,349 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:48,349 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 02:56:48,549 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 1)
+2024-10-21 02:56:48,560 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:48,560 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_nick_value_01"]
+2024-10-21 02:56:48,689 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 02:56:49,881 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 02:56:51,150 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 02:56:52,163 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_nick_value_01"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 02:56:53,223 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Terminate App] 앱 종료, 앱 종료 (com.aqx.prex)) - pass
+2024-10-21 02:56:53,232 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Finished] 로그 아웃 기능 확인 정상 수행, 로그 아웃 기능 확인 정상 수행. Test Case is Finished.) - pass
+2024-10-21 02:56:53,232 INFO [testcase_controller.py:57] - [RUNNING] ==========  TestCase Start (description : 로그인 기능 확인 ) ==========
+2024-10-21 02:56:54,466 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [iOS] 앱 실행 (com.aqx.prex)) - pass
+2024-10-21 02:56:54,466 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:55,035 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:56:55,047 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:55,047 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:55,531 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:56:56,016 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:56,017 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:56,661 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:56:56,671 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:56,671 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:56:57,142 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:56:57,635 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:57,635 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:56:58,148 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:56:58,161 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:58,161 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:56:58,639 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:56:59,770 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:56:59,770 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 02:56:59,949 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 1)
+2024-10-21 02:56:59,962 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:56:59,962 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_nick_value_01"]
+2024-10-21 02:57:00,066 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 02:57:01,306 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 02:57:02,568 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 02:57:03,586 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_nick_value_01"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 02:57:03,596 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (로그 아웃 기능 수행, 현재 로그 아웃 상태 (로그 아웃 수행 Skip)) - pass
+2024-10-21 02:57:03,596 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Assets"]
+2024-10-21 02:57:03,803 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Assets"]) | (size : 0)
+2024-10-21 02:57:05,062 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Assets"]) | (size : 0)
+2024-10-21 02:57:06,304 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Assets"]) | (size : 0)
+2024-10-21 02:57:07,320 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Assets"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 02:57:07,320 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="back_icon"]
+2024-10-21 02:57:07,778 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="back_icon"]) | (size : 1)
+2024-10-21 02:57:08,760 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="back_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:08,761 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Assets"]
+2024-10-21 02:57:09,292 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Assets"]) | (size : 1)
+2024-10-21 02:57:09,770 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Assets"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:09,770 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Continue with Google"]
+2024-10-21 02:57:09,963 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Continue with Google"]) | (size : 1)
+2024-10-21 02:57:09,973 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Continue with Google"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:09,973 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Continue with Google"]
+2024-10-21 02:57:10,143 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Continue with Google"]) | (size : 1)
+2024-10-21 02:57:10,548 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Continue with Google"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:14,559 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeOther[@name="로그인 - Google 계정"]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]
+2024-10-21 02:57:15,249 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeOther[@name="로그인 - Google 계정"]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]) | (size : 1)
+2024-10-21 02:57:15,946 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeOther[@name="로그인 - Google 계정"]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:15,946 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="계속"]
+2024-10-21 02:57:16,441 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="계속"]) | (size : 0)
+2024-10-21 02:57:18,123 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="계속"]) | (size : 1)
+2024-10-21 02:57:18,838 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="계속"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:18,838 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Don't allow"]
+2024-10-21 02:57:19,254 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 0)
+2024-10-21 02:57:20,813 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 0)
+2024-10-21 02:57:22,478 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 1)
+2024-10-21 02:57:22,489 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="Don't allow"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:22,489 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Don't allow"]
+2024-10-21 02:57:23,092 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 1)
+2024-10-21 02:57:23,839 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="Don't allow"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:23,839 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:57:24,433 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:57:24,444 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:24,444 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:57:24,872 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:57:25,326 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:25,326 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:57:26,042 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:57:26,054 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:26,054 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:57:26,721 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:57:27,686 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:27,686 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 02:57:28,014 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 1)
+2024-10-21 02:57:28,020 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:28,020 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_nick_value_01"]
+2024-10-21 02:57:28,450 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 1)
+2024-10-21 02:57:28,460 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_nick_value_01"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:29,517 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Terminate App] 앱 종료, 앱 종료 (com.aqx.prex)) - pass
+2024-10-21 02:57:29,532 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Finished] 로그인 기능 확인 정상 수행, 로그인 기능 확인 정상 수행. Test Case is Finished.) - pass
+2024-10-21 02:57:29,532 INFO [testcase_controller.py:57] - [RUNNING] ==========  TestCase Start (description : Perpetual Selections 페이지에 High volume 영역에 코인 정보 정상 노출되는지 확인 ) ==========
+2024-10-21 02:57:30,750 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [iOS] 앱 실행 (com.aqx.prex)) - pass
+2024-10-21 02:57:30,751 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Assets"]
+2024-10-21 02:57:31,333 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Assets"]) | (size : 1)
+2024-10-21 02:57:31,344 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Assets"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:31,344 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Assets"]
+2024-10-21 02:57:31,846 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Assets"]) | (size : 1)
+2024-10-21 02:57:32,351 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Assets"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:32,352 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Continue with Google"]
+2024-10-21 02:57:32,566 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Continue with Google"]) | (size : 1)
+2024-10-21 02:57:32,576 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Continue with Google"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:32,576 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Continue with Google"]
+2024-10-21 02:57:32,708 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Continue with Google"]) | (size : 1)
+2024-10-21 02:57:33,082 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Continue with Google"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:37,080 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeOther[@name="로그인 - Google 계정"]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]
+2024-10-21 02:57:37,771 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeOther[@name="로그인 - Google 계정"]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]) | (size : 1)
+2024-10-21 02:57:38,569 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeOther[@name="로그인 - Google 계정"]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:38,571 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="계속"]
+2024-10-21 02:57:39,099 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="계속"]) | (size : 0)
+2024-10-21 02:57:40,773 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="계속"]) | (size : 1)
+2024-10-21 02:57:41,462 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="계속"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:41,462 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Don't allow"]
+2024-10-21 02:57:41,938 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 0)
+2024-10-21 02:57:43,444 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 0)
+2024-10-21 02:57:45,296 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 1)
+2024-10-21 02:57:45,306 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="Don't allow"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:45,306 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Don't allow"]
+2024-10-21 02:57:45,918 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Don't allow"]) | (size : 1)
+2024-10-21 02:57:46,656 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="Don't allow"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:46,657 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:57:47,154 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:57:47,160 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:47,160 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:57:47,511 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:57:47,989 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:47,989 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:57:48,764 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:57:48,771 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:48,772 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 02:57:49,430 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 02:57:50,458 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:50,458 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 02:57:50,785 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 1)
+2024-10-21 02:57:50,799 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:50,799 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_nick_value_01"]
+2024-10-21 02:57:51,200 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 1)
+2024-10-21 02:57:51,211 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_nick_value_01"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:57:51,211 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:57:51,458 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 02:57:52,733 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 02:57:54,124 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 02:57:55,139 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 02:57:55,140 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="back_icon"]
+2024-10-21 02:57:55,685 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="back_icon"]) | (size : 1)
+2024-10-21 02:57:56,562 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="back_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:56,563 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 02:57:57,273 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 02:57:57,765 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:57:57,765 INFO [element_controller.py:47] - resource_id : (//*[@value="High volume"]/following-sibling::*[@label="See all"])[1]
+2024-10-21 02:57:58,451 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : (//*[@value="High volume"]/following-sibling::*[@label="See all"])[1]) | (size : 1)
+2024-10-21 02:57:58,451 INFO [element_controller.py:182] - [ELEMENT] Element swipe (1) | down | (//*[@value="High volume"]/following-sibling::*[@label="See all"])[1] | 1
+2024-10-21 02:57:59,461 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 엘리먼트 Swipe 수행, 엘리먼트 Swipe 성공 (1) | down | (//*[@value="High volume"]/following-sibling::*[@label="See all"])[1] | 1)) - pass
+2024-10-21 02:57:59,461 INFO [element_controller.py:47] - resource_id : (//*[@value="High volume"]/following-sibling::*[@label="See all"])[1]
+2024-10-21 02:58:00,154 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : (//*[@value="High volume"]/following-sibling::*[@label="See all"])[1]) | (size : 1)
+2024-10-21 02:58:05,174 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, (//*[@value="High volume"]/following-sibling::*[@label="See all"])[1] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:58:06,179 INFO [element_controller.py:47] - resource_id : //*[contains(@name, "ticker") and contains(@name, "price") and contains(@name, "fluctuation")]
+2024-10-21 02:58:07,296 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[contains(@name, "ticker") and contains(@name, "price") and contains(@name, "fluctuation")]) | (size : 18)
+2024-10-21 02:58:07,304 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //*[contains(@name, "ticker") and contains(@name, "price") and contains(@name, "fluctuation")] 엘리먼트 리스트 반환 (size : 18)) - pass
+2024-10-21 02:58:29,651 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:200, press_y:750, move_x:200, move_y:200
+2024-10-21 02:58:32,803 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (200, 750 | 200, 200)) - pass
+2024-10-21 02:58:33,809 INFO [element_controller.py:47] - resource_id : //*[contains(@name, "ticker") and contains(@name, "price") and contains(@name, "fluctuation")]
+2024-10-21 02:58:35,692 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[contains(@name, "ticker") and contains(@name, "price") and contains(@name, "fluctuation")]) | (size : 26)
+2024-10-21 02:58:35,752 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //*[contains(@name, "ticker") and contains(@name, "price") and contains(@name, "fluctuation")] 엘리먼트 리스트 반환 (size : 26)) - pass
+2024-10-21 02:59:12,536 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:200, press_y:750, move_x:200, move_y:200
+2024-10-21 02:59:15,652 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (200, 750 | 200, 200)) - pass
+2024-10-21 02:59:16,653 INFO [element_controller.py:47] - resource_id : //*[contains(@name, "ticker") and contains(@name, "price") and contains(@name, "fluctuation")]
+2024-10-21 02:59:18,476 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //*[contains(@name, "ticker") and contains(@name, "price") and contains(@name, "fluctuation")]) | (size : 26)
+2024-10-21 02:59:18,484 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Find] 엘리먼트 리스트 반환, //*[contains(@name, "ticker") and contains(@name, "price") and contains(@name, "fluctuation")] 엘리먼트 리스트 반환 (size : 26)) - pass
+2024-10-21 02:59:54,552 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (High Volume 페이지 코인 정보 정상 확인, 정상 확인 한 코인 정보 : [
+    {
+        "ticker": "BTC",
+        "volume": "75.72M",
+        "price": "68,547.0",
+        "fluctuation": "0.67%"
+    },
+    {
+        "ticker": "ETH",
+        "volume": "28.46M",
+        "price": "2,695.22",
+        "fluctuation": "2.09%"
+    },
+    {
+        "ticker": "APE",
+        "volume": "47.54M",
+        "price": "1.5238",
+        "fluctuation": "105.18%"
+    },
+    {
+        "ticker": "SOL",
+        "volume": "5.48M",
+        "price": "160.137",
+        "fluctuation": "3.02%"
+    },
+    {
+        "ticker": "BNB",
+        "volume": "308.85K",
+        "price": "598.916",
+        "fluctuation": "0.46%"
+    },
+    {
+        "ticker": "DOGE",
+        "volume": "15.09M",
+        "price": "0.14047",
+        "fluctuation": "0.29%"
+    },
+    {
+        "ticker": "XRP",
+        "volume": "438.43K",
+        "price": "0.5433",
+        "fluctuation": "0.44%"
+    },
+    {
+        "ticker": "SUI",
+        "volume": "1.43M",
+        "price": "2.1204",
+        "fluctuation": "3.06%"
+    },
+    {
+        "ticker": "1000PEPE",
+        "volume": "2.28M",
+        "price": "0.0104762",
+        "fluctuation": "0.83%"
+    },
+    {
+        "ticker": "DYDX",
+        "volume": "791.71K",
+        "price": "1.2695",
+        "fluctuation": "33.80%"
+    },
+    {
+        "ticker": "NEIRO",
+        "volume": "965.10K",
+        "price": "0.0018825",
+        "fluctuation": "3.02%"
+    },
+    {
+        "ticker": "WIF",
+        "volume": "627.86K",
+        "price": "2.6659",
+        "fluctuation": "2.45%"
+    },
+    {
+        "ticker": "1000SHIB",
+        "volume": "321.37K",
+        "price": "0.018872",
+        "fluctuation": "0.01%"
+    },
+    {
+        "ticker": "ARB",
+        "volume": "476.95K",
+        "price": "0.5982",
+        "fluctuation": "6.71%"
+    },
+    {
+        "ticker": "API3",
+        "volume": "1.67M",
+        "price": "2.0013",
+        "fluctuation": "42.55%"
+    },
+    {
+        "ticker": "LTC",
+        "volume": "169.39K",
+        "price": "74.52",
+        "fluctuation": "0.34%"
+    },
+    {
+        "ticker": "WLD",
+        "volume": "803.71K",
+        "price": "2.3908",
+        "fluctuation": "2.81%"
+    },
+    {
+        "ticker": "BCH",
+        "volume": "521.41K",
+        "price": "367.57",
+        "fluctuation": "1.39%"
+    },
+    {
+        "ticker": "STORJ",
+        "volume": "762.20K",
+        "price": "0.5473",
+        "fluctuation": "7.25%"
+    },
+    {
+        "ticker": "TRX",
+        "volume": "36.62K",
+        "price": "0.15640",
+        "fluctuation": "0.48%"
+    }
+]) - pass
+2024-10-21 02:59:55,666 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Terminate App] 앱 종료, 앱 종료 (com.aqx.prex)) - pass
+2024-10-21 02:59:55,672 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Finished] Perpetual Selections 페이지에 High volume 영역에 코인 정보 정상 노출되는지 확인 정상 수행, Perpetual Selections 페이지에 High volume 영역에 코인 정보 정상 노출되는지 확인 정상 수행. Test Case is Finished.) - pass
+2024-10-21 02:59:55,672 INFO [testcase_controller.py:57] - [RUNNING] ==========  TestCase Start (description : Challenge 페이지에 Launch Airdrop 이벤트 정보 확인 ) ==========
+2024-10-21 02:59:56,868 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [iOS] 앱 실행 (com.aqx.prex)) - pass
+2024-10-21 02:59:56,868 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Assets"]
+2024-10-21 02:59:58,067 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Assets"]) | (size : 1)
+2024-10-21 02:59:58,072 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Assets"] 엘리먼트 찾기 성공) - pass
+2024-10-21 02:59:58,073 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Assets"]
+2024-10-21 02:59:58,762 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Assets"]) | (size : 1)
+2024-10-21 02:59:59,314 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Assets"] 엘리먼트 클릭 성공) - pass
+2024-10-21 02:59:59,314 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Continue with Google"]
+2024-10-21 02:59:59,758 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Continue with Google"]) | (size : 0)
+2024-10-21 03:00:01,220 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Continue with Google"]) | (size : 0)
+2024-10-21 03:00:02,608 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Continue with Google"]) | (size : 0)
+2024-10-21 03:00:03,620 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Continue with Google"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 03:00:03,620 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Challenge"]
+2024-10-21 03:00:04,193 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Challenge"]) | (size : 1)
+2024-10-21 03:00:04,200 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Challenge"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:00:04,200 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Challenge"]
+2024-10-21 03:00:04,592 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Challenge"]) | (size : 1)
+2024-10-21 03:00:05,071 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Challenge"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:00:05,071 INFO [element_controller.py:47] - resource_id : (//XCUIElementTypeStaticText[@name="Launch Airdrop"])[2]
+2024-10-21 03:00:05,443 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : (//XCUIElementTypeStaticText[@name="Launch Airdrop"])[2]) | (size : 1)
+2024-10-21 03:00:05,865 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, (//XCUIElementTypeStaticText[@name="Launch Airdrop"])[2] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:00:31,101 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:350, press_y:400, move_x:50, move_y:400
+2024-10-21 03:00:32,651 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (350, 400 | 50, 400)) - pass
+2024-10-21 03:00:54,716 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:350, press_y:400, move_x:50, move_y:400
+2024-10-21 03:00:56,304 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (350, 400 | 50, 400)) - pass
+2024-10-21 03:01:19,863 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:350, press_y:400, move_x:50, move_y:400
+2024-10-21 03:01:21,417 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (350, 400 | 50, 400)) - pass
+2024-10-21 03:01:44,722 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:350, press_y:400, move_x:50, move_y:400
+2024-10-21 03:01:46,212 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (350, 400 | 50, 400)) - pass
+2024-10-21 03:02:07,586 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:350, press_y:400, move_x:50, move_y:400
+2024-10-21 03:02:09,125 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (350, 400 | 50, 400)) - pass
+2024-10-21 03:02:31,085 INFO [element_controller.py:160] - [ELEMENT] location swipe - press_x:350, press_y:400, move_x:50, move_y:400
+2024-10-21 03:02:32,987 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 좌표 Swipe 수행, 좌표 Swipe 성공 (350, 400 | 50, 400)) - pass
+2024-10-21 03:02:41,141 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (Challenge 이벤트 정보 정상 확인, 정상 확인 한 이벤트 정보 : [
+    {
+        "ticker": "HMSTR",
+        "period": "24.09.23 - 09.26 UTC",
+        "Status": "Closed"
+    },
+    {
+        "ticker": "ORDER",
+        "period": "24.08.23 - 08.26 UTC",
+        "Status": "Closed"
+    },
+    {
+        "ticker": "IO",
+        "period": "24.06.08 - 06.11 UTC",
+        "Status": "Closed"
+    },
+    {
+        "ticker": "ULTI",
+        "period": "24.06.03 - 06.06 UTC",
+        "Status": "Closed"
+    },
+    {
+        "ticker": "NOT",
+        "period": "24.05.13 - 05.16 UTC",
+        "Status": "Closed"
+    },
+    {
+        "ticker": "BB",
+        "period": "24.05.10 - 05.13 UTC",
+        "Status": "Closed"
+    }
+]) - pass
+2024-10-21 03:02:42,198 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Terminate App] 앱 종료, 앱 종료 (com.aqx.prex)) - pass
+2024-10-21 03:02:42,203 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Finished] Challenge 페이지에 Launch Airdrop 이벤트 정보 확인 정상 수행, Challenge 페이지에 Launch Airdrop 이벤트 정보 확인 정상 수행. Test Case is Finished.) - pass
+2024-10-21 03:02:42,203 INFO [testcase_controller.py:57] - [RUNNING] ==========  TestCase Start (description : 문의하기 페이지 노출 및 앱 전환 ) ==========
+2024-10-21 03:02:43,405 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [iOS] 앱 실행 (com.aqx.prex)) - pass
+2024-10-21 03:02:43,405 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:02:44,898 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 03:02:44,925 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:02:44,925 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:02:45,810 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 03:02:46,314 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:02:46,314 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:02:47,067 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 03:02:47,074 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:02:47,074 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:02:47,813 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 03:02:48,417 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:02:48,417 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 03:02:49,472 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 03:02:49,509 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:02:49,509 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 03:02:50,298 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 03:02:51,388 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:02:51,389 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 03:02:51,708 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 1)
+2024-10-21 03:02:51,719 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:02:51,719 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_nick_value_01"]
+2024-10-21 03:02:52,137 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 1)
+2024-10-21 03:02:52,142 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_nick_value_01"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:02:52,142 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="account_sign_out"]
+2024-10-21 03:02:52,429 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="account_sign_out"]) | (size : 1)
+2024-10-21 03:02:52,429 INFO [element_controller.py:182] - [ELEMENT] Element swipe (1) | down | //XCUIElementTypeButton[@name="account_sign_out"] | 1
+2024-10-21 03:02:53,443 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 엘리먼트 Swipe 수행, 엘리먼트 Swipe 성공 (1) | down | //XCUIElementTypeButton[@name="account_sign_out"] | 1)) - pass
+2024-10-21 03:02:53,443 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="account_sign_out"]
+2024-10-21 03:02:53,790 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="account_sign_out"]) | (size : 1)
+2024-10-21 03:02:58,849 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="account_sign_out"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:02:58,849 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:02:59,360 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 03:02:59,371 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:02:59,371 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:02:59,850 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 03:03:00,388 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:00,388 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 03:03:01,113 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 03:03:01,123 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:03:01,123 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 03:03:01,704 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 03:03:02,656 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:02,656 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 03:03:02,837 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 1)
+2024-10-21 03:03:02,847 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:03:02,847 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_nick_value_01"]
+2024-10-21 03:03:02,949 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 03:03:04,203 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 03:03:05,382 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 03:03:06,396 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_nick_value_01"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 03:03:06,396 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:03:06,662 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 03:03:07,909 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 03:03:09,172 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 03:03:10,191 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 03:03:10,191 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="back_icon"]
+2024-10-21 03:03:10,460 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="back_icon"]) | (size : 1)
+2024-10-21 03:03:11,313 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="back_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:11,313 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:03:11,883 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 03:03:12,363 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:12,363 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 03:03:12,934 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 03:03:12,945 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:03:12,946 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 03:03:13,676 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 03:03:14,586 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:14,587 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 03:03:14,803 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 1)
+2024-10-21 03:03:14,813 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:03:14,813 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Setting_Announcement"]
+2024-10-21 03:03:14,963 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Setting_Announcement"]) | (size : 1)
+2024-10-21 03:03:14,964 INFO [element_controller.py:182] - [ELEMENT] Element swipe (1) | down | //XCUIElementTypeButton[@name="Setting_Announcement"] | 1
+2024-10-21 03:03:15,987 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 엘리먼트 Swipe 수행, 엘리먼트 Swipe 성공 (1) | down | //XCUIElementTypeButton[@name="Setting_Announcement"] | 1)) - pass
+2024-10-21 03:03:15,987 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Setting_Announcement"]
+2024-10-21 03:03:16,262 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Setting_Announcement"]) | (size : 1)
+2024-10-21 03:03:16,643 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="Setting_Announcement"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:16,644 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Open messaging window"]
+2024-10-21 03:03:16,854 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Open messaging window"]) | (size : 0)
+2024-10-21 03:03:18,317 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Open messaging window"]) | (size : 0)
+2024-10-21 03:03:19,936 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Open messaging window"]) | (size : 1)
+2024-10-21 03:03:20,592 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 엘리먼트 location 클릭, //XCUIElementTypeButton[@name="Open messaging window"] (x: 340, y: 661) 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:20,592 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Close"]
+2024-10-21 03:03:21,126 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Close"]) | (size : 0)
+2024-10-21 03:03:22,843 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Close"]) | (size : 1)
+2024-10-21 03:03:23,331 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="Close"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:23,331 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 03:03:23,808 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 0)
+2024-10-21 03:03:25,360 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 0)
+2024-10-21 03:03:26,935 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 0)
+2024-10-21 03:03:27,954 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 03:03:27,979 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (문의하기 페이지 노출 및 앱 전환 에러, 문의하기 페이지 노출 및 앱 전환 에러 
+ [ERROR] 쳇봇 화면에서 collapse 버튼 클릭 시 Account 페이지 앱 전환 실패) - fail
+2024-10-21 03:03:27,979 ERROR [account_testcase.py:28] - [ERROR] 문의하기 페이지 노출 및 앱 전환
+[ERROR] 문의하기 페이지 노출 및 앱 전환
+[ERROR] 쳇봇 화면에서 collapse 버튼 클릭 시 Account 페이지 앱 전환 실패
+2024-10-21 03:03:27,979 INFO [testcase_controller.py:75] - [RUNNING] ========== TestCase Retry ( description : 문의하기 페이지 노출 및 앱 전환 ) ==========
+2024-10-21 03:03:28,141 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Start Activity App] 앱 실행, [iOS] 앱 실행 (com.aqx.prex)) - pass
+2024-10-21 03:03:28,142 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:03:28,281 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 03:03:29,477 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 03:03:30,737 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 03:03:31,751 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 03:03:31,751 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="back_icon"]
+2024-10-21 03:03:32,099 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="back_icon"]) | (size : 1)
+2024-10-21 03:03:33,127 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="back_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:33,127 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:03:33,715 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 03:03:34,180 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:34,180 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:03:34,764 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 03:03:34,776 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:03:34,776 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:03:35,269 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 03:03:35,748 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:35,749 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 03:03:36,326 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 03:03:36,338 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:03:36,338 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 03:03:36,845 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 03:03:37,743 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:37,743 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 03:03:37,941 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 1)
+2024-10-21 03:03:37,953 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:03:37,953 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_nick_value_01"]
+2024-10-21 03:03:38,064 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 03:03:39,287 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 03:03:40,525 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_nick_value_01"]) | (size : 0)
+2024-10-21 03:03:41,539 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_nick_value_01"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 03:03:41,549 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (로그 아웃 기능 수행, 현재 로그 아웃 상태 (로그 아웃 수행 Skip)) - pass
+2024-10-21 03:03:41,550 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:03:41,792 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 03:03:43,040 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 03:03:44,295 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 0)
+2024-10-21 03:03:45,307 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 03:03:45,308 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="back_icon"]
+2024-10-21 03:03:45,625 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="back_icon"]) | (size : 1)
+2024-10-21 03:03:46,594 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="back_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:46,595 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="Market"]
+2024-10-21 03:03:47,213 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="Market"]) | (size : 1)
+2024-10-21 03:03:47,687 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeStaticText[@name="Market"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:47,687 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 03:03:48,249 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 03:03:48,261 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:03:48,261 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="menu_icon"]
+2024-10-21 03:03:48,762 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="menu_icon"]) | (size : 1)
+2024-10-21 03:03:49,685 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="menu_icon"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:49,685 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 03:03:49,870 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 1)
+2024-10-21 03:03:49,880 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 성공) - pass
+2024-10-21 03:03:49,880 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Setting_Announcement"]
+2024-10-21 03:03:50,017 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Setting_Announcement"]) | (size : 1)
+2024-10-21 03:03:50,018 INFO [element_controller.py:182] - [ELEMENT] Element swipe (1) | down | //XCUIElementTypeButton[@name="Setting_Announcement"] | 1
+2024-10-21 03:03:51,065 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Swipe] 엘리먼트 Swipe 수행, 엘리먼트 Swipe 성공 (1) | down | //XCUIElementTypeButton[@name="Setting_Announcement"] | 1)) - pass
+2024-10-21 03:03:51,069 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Setting_Announcement"]
+2024-10-21 03:03:51,375 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Setting_Announcement"]) | (size : 1)
+2024-10-21 03:03:51,790 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="Setting_Announcement"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:51,790 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Open messaging window"]
+2024-10-21 03:03:52,048 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Open messaging window"]) | (size : 0)
+2024-10-21 03:03:53,556 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Open messaging window"]) | (size : 0)
+2024-10-21 03:03:55,183 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Open messaging window"]) | (size : 1)
+2024-10-21 03:03:55,809 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 엘리먼트 location 클릭, //XCUIElementTypeButton[@name="Open messaging window"] (x: 340, y: 661) 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:55,809 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeButton[@name="Close"]
+2024-10-21 03:03:56,369 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeButton[@name="Close"]) | (size : 1)
+2024-10-21 03:03:56,850 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Click] 화면 요소 클릭, //XCUIElementTypeButton[@name="Close"] 엘리먼트 클릭 성공) - pass
+2024-10-21 03:03:56,851 INFO [element_controller.py:47] - resource_id : //XCUIElementTypeStaticText[@name="account_main_title"]
+2024-10-21 03:03:57,360 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(0) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 0)
+2024-10-21 03:03:58,967 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(1) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 0)
+2024-10-21 03:04:00,540 INFO [element_controller.py:59] - [ELEMENT] Find Element #Retry(2) | (context : NATIVE_APP) | (xpath : //XCUIElementTypeStaticText[@name="account_main_title"]) | (size : 0)
+2024-10-21 03:04:01,571 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([IsVisible] 화면 요소 찾기, //XCUIElementTypeStaticText[@name="account_main_title"] 엘리먼트 찾기 실패 (화면 요소 못찾을 경우에도 계속 수행)) - pass
+2024-10-21 03:04:01,580 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 (문의하기 페이지 노출 및 앱 전환 에러, 문의하기 페이지 노출 및 앱 전환 에러 
+ [ERROR] 쳇봇 화면에서 collapse 버튼 클릭 시 Account 페이지 앱 전환 실패) - fail
+2024-10-21 03:04:01,580 ERROR [account_testcase.py:28] - [ERROR] 문의하기 페이지 노출 및 앱 전환
+[ERROR] 문의하기 페이지 노출 및 앱 전환
+[ERROR] 쳇봇 화면에서 collapse 버튼 클릭 시 Account 페이지 앱 전환 실패
+2024-10-21 03:04:01,588 INFO [report.py:44] - [Result] 테스트 결과 전송 성공 ([Error] 문의하기 페이지 노출 및 앱 전환 재시도 에러, 문의하기 페이지 노출 및 앱 전환 재시도 에러 메시지 
+ [ERROR] 문의하기 페이지 노출 및 앱 전환) - fail
+2024-10-21 03:04:01,588 INFO [testcase_controller.py:80] - [RUNNING] Retry Error : 문의하기 페이지 노출 및 앱 전환 
+ [ERROR] 문의하기 페이지 노출 및 앱 전환
+2024-10-21 03:04:01,590 ERROR [testcase_controller.py:60] - [Error] Test Case - (total_test : 문의하기 페이지 노출 및 앱 전환)
+can only concatenate str (not "dict") to str
+2024-10-21 03:04:01,590 INFO [run.py:39] - [Finished] Test Automation
